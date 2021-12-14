@@ -1,0 +1,22 @@
+.prodContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.prod {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.prod img {
+  width: 100px;
+}
+@media screen and (max-width: 800px) {
+  .prodContainer {
+    flex-direction: column;
+  }
+}
